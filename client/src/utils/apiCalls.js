@@ -1,6 +1,7 @@
 import axios from "axios";
 
-export const API_URL = "http://localhost:8800";
+//export const API_URL = "http://localhost:8800";
+export const API_URL = "https://write-wave1.onrender.com";
 
 export const getGoogleSignUp = async (accessToken) => {
     try{

@@ -7,7 +7,8 @@ import {
   } from "firebase/storage";
 
   import app from './firebase'; 
-  export const API_URL = "http://localhost:8800";
+  // export const API_URL = "http://localhost:8800";
+  export const API_URL = "https://write-wave1.onrender.com";
 // export const uploadFile = (setFileURL, file) => {
 //     const storage = getStorage(app);
 
